@@ -1,0 +1,30 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                Approve   R-squared (uncentered):                   0.649
+Model:                            OLS   Adj. R-squared (uncentered):              0.649
+Method:                 Least Squares   F-statistic:                              1694.
+Date:                Thu, 28 Sep 2023   Prob (F-statistic):                        0.00
+Time:                        18:10:47   Log-Likelihood:                         -17929.
+No. Observations:                3669   AIC:                                  3.587e+04
+Df Residuals:                    3665   BIC:                                  3.589e+04
+Df Model:                           4                                                  
+Covariance Type:            nonrobust                                                  
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+% GDP Change    -5.2290      0.341    -15.348      0.000      -5.897      -4.561
+% RDI Change    13.3795      0.375     35.681      0.000      12.644      14.115
+Casualties       0.0004      0.000      3.953      0.000       0.000       0.001
+Democrat        39.3774      0.888     44.334      0.000      37.636      41.119
+==============================================================================
+Omnibus:                       15.864   Durbin-Watson:                   0.053
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               15.901
+Skew:                          -0.152   Prob(JB):                     0.000352
+Kurtosis:                       2.890   Cond. No.                     8.71e+03
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[3] The condition number is large, 8.71e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
